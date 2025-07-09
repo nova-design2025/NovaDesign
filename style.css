@@ -1,0 +1,18 @@
+
+body { font-family: 'Segoe UI', sans-serif; background: #0a0f2c; color: #fff; margin: 0; padding: 0; }
+header { background: #0e143d; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; }
+nav a { color: #61dafb; margin: 0 10px; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+.logo { height: 50px; }
+main { padding: 40px 20px; max-width: 960px; margin: auto; }
+footer { text-align: center; padding: 20px; background: #0e143d; margin-top: 40px; }
+h1, h2 { color: #61dafb; }
+.portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+.portfolio-item { text-align: center; background: #111a44; padding: 10px; border-radius: 8px; }
+.portfolio-item img { width: 100%; border-radius: 4px; }
+form input, form textarea { display: block; width: 100%; margin: 10px 0; padding: 10px; border-radius: 4px; border: none; }
+form button { background: #61dafb; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; }
+form button:hover { background: #4dbde5; }
+.testimonials blockquote, .faq p { background: #111a44; padding: 10px; margin: 10px 0; border-left: 4px solid #61dafb; }
+.pricing-list { list-style: none; padding: 0; }
+.pricing-list li { background: #111a44; padding: 15px; margin: 10px 0; border-left: 4px solid #61dafb; border-radius: 6px; }
